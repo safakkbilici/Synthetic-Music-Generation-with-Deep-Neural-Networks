@@ -55,6 +55,9 @@ python3 play.py --midi_file /path/to/midi.mid --volume 0.8 --frequency 44100 --b
 ## References
 
 \[1\] Attentional networks for music generation, [arXiv](https://arxiv.org/pdf/2002.03854)
+
 \[2\] MuseGAN: Multi-track Sequential Generative Adversarial Networks for Symbolic Music Generation and Accompaniment, [arXiv](https://arxiv.org/pdf/1709.06298.pdf)
+
 \[3\] Jukebox: A Generative Model for Music, [arXiv](https://arxiv.org/pdf/2005.00341.pdf)
+
 \[4\] Neural Discrete Representation Learning, [arXiv](https://arxiv.org/pdf/1711.00937.pdf)
