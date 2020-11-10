@@ -34,7 +34,7 @@ Your final samples have to level: level 1 and level 0. The level_1 samples will 
 (Please note, if you are using this CoLab on Google's free tier, you may want to download intermediate steps as the connection will last for a maximum 12 hours.)
 
 ### Examples
-(This folder)[https://github.com/inzva/music-generation/tree/main/jukebox/samples] contains our examples for music generation. 
+[This folder](https://github.com/inzva/music-generation/tree/main/jukebox/samples) contains our examples for music generation. 
 
 ## wavhelper
 
