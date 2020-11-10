@@ -46,7 +46,7 @@ python3 mp32wav.py --input /path/to/wav.wav --output /path/to/mp3.mp3
 
 ## midihelper
 
-If you want a create simple RNN model for generating music using midi files, (midihelper.py)[https://github.com/inzva/music-generation/blob/main/midihelper/midihelper.py] contains midi2sequence scripts, and if you have problems with playing midi files in your computer, [play.py](https://github.com/inzva/music-generation/blob/main/midihelper/play.py) and [playhelper.py](https://github.com/inzva/music-generation/blob/main/midihelper/playhelper.py) contain functions to play midi files.
+If you want a create simple RNN model for generating music using midi files, [midihelper.py](https://github.com/inzva/music-generation/blob/main/midihelper/midihelper.py) contains midi2sequence scripts, and if you have problems with playing midi files in your computer, [play.py](https://github.com/inzva/music-generation/blob/main/midihelper/play.py) and [playhelper.py](https://github.com/inzva/music-generation/blob/main/midihelper/playhelper.py) contain functions to play midi files.
 
 ```bash
 python3 play.py --midi_file /path/to/midi.mid --volume 0.8 --frequency 44100 --bitsize -16 --nof_channels 2 --buffer 1024
