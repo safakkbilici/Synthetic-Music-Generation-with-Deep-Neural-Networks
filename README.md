@@ -34,7 +34,7 @@ Your final samples have to level: level 1 and level 0. The level_1 samples will 
 (Please note, if you are using this CoLab on Google's free tier, you may want to download intermediate steps as the connection will last for a maximum 12 hours.)
 
 ### Examples
-(This folder)[https://github.com/inzva/music-generation/tree/main/jukebox/samples] contains our examples for music generation. 
+[This folder](https://github.com/inzva/music-generation/tree/main/jukebox/samples) contains our examples for music generation. 
 
 ## wavhelper
 
@@ -46,7 +46,7 @@ python3 mp32wav.py --input /path/to/wav.wav --output /path/to/mp3.mp3
 
 ## midihelper
 
-If you want a create simple RNN model for generating music using midi files, (midihelper.py)[https://github.com/inzva/music-generation/blob/main/midihelper/midihelper.py] contains midi2sequence scripts, and if you have problems with playing midi files in your computer, [play.py](https://github.com/inzva/music-generation/blob/main/midihelper/play.py) and [playhelper.py](https://github.com/inzva/music-generation/blob/main/midihelper/playhelper.py) contain functions to play midi files.
+If you want a create simple RNN model for generating music using midi files, [midihelper.py](https://github.com/inzva/music-generation/blob/main/midihelper/midihelper.py) contains midi2sequence scripts, and if you have problems with playing midi files in your computer, [play.py](https://github.com/inzva/music-generation/blob/main/midihelper/play.py) and [playhelper.py](https://github.com/inzva/music-generation/blob/main/midihelper/playhelper.py) contain functions to play midi files.
 
 ```bash
 python3 play.py --midi_file /path/to/midi.mid --volume 0.8 --frequency 44100 --bitsize -16 --nof_channels 2 --buffer 1024
@@ -55,6 +55,9 @@ python3 play.py --midi_file /path/to/midi.mid --volume 0.8 --frequency 44100 --b
 ## References
 
 \[1\] Attentional networks for music generation, [arXiv](https://arxiv.org/pdf/2002.03854)
+
 \[2\] MuseGAN: Multi-track Sequential Generative Adversarial Networks for Symbolic Music Generation and Accompaniment, [arXiv](https://arxiv.org/pdf/1709.06298.pdf)
+
 \[3\] Jukebox: A Generative Model for Music, [arXiv](https://arxiv.org/pdf/2005.00341.pdf)
+
 \[4\] Neural Discrete Representation Learning, [arXiv](https://arxiv.org/pdf/1711.00937.pdf)
