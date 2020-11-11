@@ -14,7 +14,7 @@ In this work, we tackle the generating music with deep neural networks, especial
 ## Jukebox
 JukeBox is a generative model for music with singing that is based on Vector Quantized Variational Autoencoders. The models uses raw audio (.wav) for training data. We implemented upsampling section and created music based on different styles. Jukebox is trained on 1.2 million songs with paired lyrics and metadata from LyricWiki. Trained on 32 bit, 44.1 kHz.
 
-Raw audio is represented as a continuous waveform - <img src="https://latex.codecogs.com/gif.latex?x \in [-1,1]^T" />   where the number of samples $$T$$ is the product of the audio duration $$t$$ and the sampling rate, typically 16 kHz to 48 kHz. Input of the Vector Quantized Variational is this continuous waveform.
+Raw audio is represented as a continuous waveform $$x \in [-1,1]^T$$  where the number of samples $$T$$ is the product of the audio duration $$t$$ and the sampling rate, typically 16 kHz to 48 kHz. Input of the Vector Quantized Variational is this continuous waveform.
 
 ### Sampler
 The [sampler.ipynb](https://github.com/inzva/music-generation/blob/main/jukebox/sampler.ipynb) notebook is for generate music with pre-trained weigths, using conditional informations.
